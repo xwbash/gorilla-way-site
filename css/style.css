@@ -1,0 +1,41 @@
+@font-face {
+    font-family: nexa;
+    src: url("../fonts/nexa.otf") format("otf");
+}
+.projected {
+  position:relative;
+  top: 250px;
+  left: 360px;
+  height: 200%;
+  width: 62%;
+
+}
+
+
+body {
+  background-image: url("../img/projects.png");
+  height: 350%;
+  position: relative;
+  top: -80px;
+  background-position:top;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+canvas {
+  position: fixed;
+  width: 100%;
+  height: 110%;
+}
+
+a {
+  position: absolute;
+  bottom: 2vmin;
+  right: 2vmin;
+  color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
